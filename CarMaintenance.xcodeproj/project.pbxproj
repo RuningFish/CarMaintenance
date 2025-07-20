@@ -27,6 +27,8 @@
 		EA6851E12E2CE571003DE3C2 /* CMNSelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E02E2CE571003DE3C2 /* CMNSelectRootViewController.m */; };
 		EA6851E52E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */; };
 		EA6851E82E2CF4FD003DE3C2 /* CMNAddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E72E2CF4FD003DE3C2 /* CMNAddCarViewController.m */; };
+		EA6851EB2E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851EA2E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.m */; };
+		EA6851EE2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851ED2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,10 @@
 		EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNMyCarTableViewCell.m; sourceTree = "<group>"; };
 		EA6851E62E2CF4FD003DE3C2 /* CMNAddCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMNAddCarViewController.h; sourceTree = "<group>"; };
 		EA6851E72E2CF4FD003DE3C2 /* CMNAddCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNAddCarViewController.m; sourceTree = "<group>"; };
+		EA6851E92E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMNMaintenanceRecordCell.h; sourceTree = "<group>"; };
+		EA6851EA2E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNMaintenanceRecordCell.m; sourceTree = "<group>"; };
+		EA6851EC2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMNAddCarMaintenanceViewController.h; sourceTree = "<group>"; };
+		EA6851ED2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNAddCarMaintenanceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +198,10 @@
 				EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */,
 				EA6851E62E2CF4FD003DE3C2 /* CMNAddCarViewController.h */,
 				EA6851E72E2CF4FD003DE3C2 /* CMNAddCarViewController.m */,
+				EA6851E92E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.h */,
+				EA6851EA2E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.m */,
+				EA6851EC2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.h */,
+				EA6851ED2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.m */,
 			);
 			path = CarMaintenance;
 			sourceTree = "<group>";
@@ -453,8 +463,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA41C5DD2E2CDFB100C8229A /* AppDelegate.m in Sources */,
+				EA6851EB2E2D0EF1003DE3C2 /* CMNMaintenanceRecordCell.m in Sources */,
 				EA6851DB2E2CE53E003DE3C2 /* CMNAlpashViewController.m in Sources */,
 				EA6851D52E2CE51B003DE3C2 /* CMNMineViewController.m in Sources */,
+				EA6851EE2E2D0F7D003DE3C2 /* CMNAddCarMaintenanceViewController.m in Sources */,
 				EA6851D22E2CE514003DE3C2 /* CMNMaintenanceViewController.m in Sources */,
 				EA41C5EE2E2CDFB200C8229A /* main.m in Sources */,
 				EA6851DE2E2CE55F003DE3C2 /* CMNTabbarViewController.m in Sources */,
