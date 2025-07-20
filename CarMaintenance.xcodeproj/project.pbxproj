@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE70EC5D8E96C6691C29D15 /* libPods-CarMaintenance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C947C0E5E855620EC94DCB8B /* libPods-CarMaintenance.a */; };
+		B135D184212BE65931B4D43E /* libPods-CarMaintenanceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649ADF56782DEF4FAC0D9474 /* libPods-CarMaintenanceTests.a */; };
+		B5EB295B4D08DD1C77B6D1CB /* libPods-CarMaintenance-CarMaintenanceUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F603EEAE2FEA733AD1999A9 /* libPods-CarMaintenance-CarMaintenanceUITests.a */; };
+		EA41C5DD2E2CDFB100C8229A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41C5DC2E2CDFB100C8229A /* AppDelegate.m */; };
+		EA41C5E62E2CDFB100C8229A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41C5E42E2CDFB100C8229A /* Main.storyboard */; };
+		EA41C5E82E2CDFB200C8229A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA41C5E72E2CDFB200C8229A /* Assets.xcassets */; };
+		EA41C5EB2E2CDFB200C8229A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41C5E92E2CDFB200C8229A /* LaunchScreen.storyboard */; };
+		EA41C5EE2E2CDFB200C8229A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41C5ED2E2CDFB200C8229A /* main.m */; };
+		EA41C5F82E2CDFB200C8229A /* CarMaintenanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41C5F72E2CDFB200C8229A /* CarMaintenanceTests.m */; };
+		EA41C6022E2CDFB200C8229A /* CarMaintenanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41C6012E2CDFB200C8229A /* CarMaintenanceUITests.m */; };
+		EA41C6042E2CDFB200C8229A /* CarMaintenanceUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA41C6032E2CDFB200C8229A /* CarMaintenanceUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA41C5F42E2CDFB200C8229A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA41C5D02E2CDFB100C8229A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA41C5D72E2CDFB100C8229A;
+			remoteInfo = CarMaintenance;
+		};
+		EA41C5FE2E2CDFB200C8229A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA41C5D02E2CDFB100C8229A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA41C5D72E2CDFB100C8229A;
+			remoteInfo = CarMaintenance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		467324D35DBD60D6FA48A9DC /* Pods-CarMaintenance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMaintenance.release.xcconfig"; path = "Target Support Files/Pods-CarMaintenance/Pods-CarMaintenance.release.xcconfig"; sourceTree = "<group>"; };
+		5F603EEAE2FEA733AD1999A9 /* libPods-CarMaintenance-CarMaintenanceUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMaintenance-CarMaintenanceUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		649ADF56782DEF4FAC0D9474 /* libPods-CarMaintenanceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMaintenanceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBFB1870ADE20DCDE937462 /* Pods-CarMaintenanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMaintenanceTests.release.xcconfig"; path = "Target Support Files/Pods-CarMaintenanceTests/Pods-CarMaintenanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		AAB711D84B240CE955C1818B /* Pods-CarMaintenanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMaintenanceTests.debug.xcconfig"; path = "Target Support Files/Pods-CarMaintenanceTests/Pods-CarMaintenanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA005B31B8DC60EAFB5EA0CC /* Pods-CarMaintenance-CarMaintenanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMaintenance-CarMaintenanceUITests.release.xcconfig"; path = "Target Support Files/Pods-CarMaintenance-CarMaintenanceUITests/Pods-CarMaintenance-CarMaintenanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C947C0E5E855620EC94DCB8B /* libPods-CarMaintenance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarMaintenance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C2D045ECC48FA223C0ACCF /* Pods-CarMaintenance-CarMaintenanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMaintenance-CarMaintenanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarMaintenance-CarMaintenanceUITests/Pods-CarMaintenance-CarMaintenanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E31102BDA669F42DA3BE6218 /* Pods-CarMaintenance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarMaintenance.debug.xcconfig"; path = "Target Support Files/Pods-CarMaintenance/Pods-CarMaintenance.debug.xcconfig"; sourceTree = "<group>"; };
+		EA41C5D82E2CDFB100C8229A /* CarMaintenance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMaintenance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA41C5DB2E2CDFB100C8229A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA41C5DC2E2CDFB100C8229A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA41C5E52E2CDFB100C8229A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA41C5E72E2CDFB200C8229A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA41C5EA2E2CDFB200C8229A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA41C5EC2E2CDFB200C8229A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41C5ED2E2CDFB200C8229A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA41C5F32E2CDFB200C8229A /* CarMaintenanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMaintenanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA41C5F72E2CDFB200C8229A /* CarMaintenanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarMaintenanceTests.m; sourceTree = "<group>"; };
+		EA41C5FD2E2CDFB200C8229A /* CarMaintenanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMaintenanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA41C6012E2CDFB200C8229A /* CarMaintenanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarMaintenanceUITests.m; sourceTree = "<group>"; };
+		EA41C6032E2CDFB200C8229A /* CarMaintenanceUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarMaintenanceUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA41C5D52E2CDFB100C8229A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE70EC5D8E96C6691C29D15 /* libPods-CarMaintenance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C5F02E2CDFB200C8229A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B135D184212BE65931B4D43E /* libPods-CarMaintenanceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C5FA2E2CDFB200C8229A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EB295B4D08DD1C77B6D1CB /* libPods-CarMaintenance-CarMaintenanceUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B92504F9A22B6FC1D19C3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C947C0E5E855620EC94DCB8B /* libPods-CarMaintenance.a */,
+				5F603EEAE2FEA733AD1999A9 /* libPods-CarMaintenance-CarMaintenanceUITests.a */,
+				649ADF56782DEF4FAC0D9474 /* libPods-CarMaintenanceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1582D36D8079F1C8D3C5CE2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E31102BDA669F42DA3BE6218 /* Pods-CarMaintenance.debug.xcconfig */,
+				467324D35DBD60D6FA48A9DC /* Pods-CarMaintenance.release.xcconfig */,
+				D9C2D045ECC48FA223C0ACCF /* Pods-CarMaintenance-CarMaintenanceUITests.debug.xcconfig */,
+				BA005B31B8DC60EAFB5EA0CC /* Pods-CarMaintenance-CarMaintenanceUITests.release.xcconfig */,
+				AAB711D84B240CE955C1818B /* Pods-CarMaintenanceTests.debug.xcconfig */,
+				9EBFB1870ADE20DCDE937462 /* Pods-CarMaintenanceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA41C5CF2E2CDFB100C8229A = {
+			isa = PBXGroup;
+			children = (
+				EA41C5DA2E2CDFB100C8229A /* CarMaintenance */,
+				EA41C5F62E2CDFB200C8229A /* CarMaintenanceTests */,
+				EA41C6002E2CDFB200C8229A /* CarMaintenanceUITests */,
+				EA41C5D92E2CDFB100C8229A /* Products */,
+				1582D36D8079F1C8D3C5CE2B /* Pods */,
+				02B92504F9A22B6FC1D19C3A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA41C5D92E2CDFB100C8229A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA41C5D82E2CDFB100C8229A /* CarMaintenance.app */,
+				EA41C5F32E2CDFB200C8229A /* CarMaintenanceTests.xctest */,
+				EA41C5FD2E2CDFB200C8229A /* CarMaintenanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA41C5DA2E2CDFB100C8229A /* CarMaintenance */ = {
+			isa = PBXGroup;
+			children = (
+				EA41C5DB2E2CDFB100C8229A /* AppDelegate.h */,
+				EA41C5DC2E2CDFB100C8229A /* AppDelegate.m */,
+				EA41C5E42E2CDFB100C8229A /* Main.storyboard */,
+				EA41C5E72E2CDFB200C8229A /* Assets.xcassets */,
+				EA41C5E92E2CDFB200C8229A /* LaunchScreen.storyboard */,
+				EA41C5EC2E2CDFB200C8229A /* Info.plist */,
+				EA41C5ED2E2CDFB200C8229A /* main.m */,
+			);
+			path = CarMaintenance;
+			sourceTree = "<group>";
+		};
+		EA41C5F62E2CDFB200C8229A /* CarMaintenanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA41C5F72E2CDFB200C8229A /* CarMaintenanceTests.m */,
+			);
+			path = CarMaintenanceTests;
+			sourceTree = "<group>";
+		};
+		EA41C6002E2CDFB200C8229A /* CarMaintenanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA41C6012E2CDFB200C8229A /* CarMaintenanceUITests.m */,
+				EA41C6032E2CDFB200C8229A /* CarMaintenanceUITestsLaunchTests.m */,
+			);
+			path = CarMaintenanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA41C5D72E2CDFB100C8229A /* CarMaintenance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA41C6072E2CDFB200C8229A /* Build configuration list for PBXNativeTarget "CarMaintenance" */;
+			buildPhases = (
+				C908CBC50E99FB5741F5567B /* [CP] Check Pods Manifest.lock */,
+				EA41C5D42E2CDFB100C8229A /* Sources */,
+				EA41C5D52E2CDFB100C8229A /* Frameworks */,
+				EA41C5D62E2CDFB100C8229A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarMaintenance;
+			productName = CarMaintenance;
+			productReference = EA41C5D82E2CDFB100C8229A /* CarMaintenance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA41C5F22E2CDFB200C8229A /* CarMaintenanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA41C60A2E2CDFB200C8229A /* Build configuration list for PBXNativeTarget "CarMaintenanceTests" */;
+			buildPhases = (
+				78EA09CCFAE615F503874A22 /* [CP] Check Pods Manifest.lock */,
+				EA41C5EF2E2CDFB200C8229A /* Sources */,
+				EA41C5F02E2CDFB200C8229A /* Frameworks */,
+				EA41C5F12E2CDFB200C8229A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA41C5F52E2CDFB200C8229A /* PBXTargetDependency */,
+			);
+			name = CarMaintenanceTests;
+			productName = CarMaintenanceTests;
+			productReference = EA41C5F32E2CDFB200C8229A /* CarMaintenanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA41C5FC2E2CDFB200C8229A /* CarMaintenanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA41C60D2E2CDFB200C8229A /* Build configuration list for PBXNativeTarget "CarMaintenanceUITests" */;
+			buildPhases = (
+				BF7B3D81DFFD2D3FEE2AE33A /* [CP] Check Pods Manifest.lock */,
+				EA41C5F92E2CDFB200C8229A /* Sources */,
+				EA41C5FA2E2CDFB200C8229A /* Frameworks */,
+				EA41C5FB2E2CDFB200C8229A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA41C5FF2E2CDFB200C8229A /* PBXTargetDependency */,
+			);
+			name = CarMaintenanceUITests;
+			productName = CarMaintenanceUITests;
+			productReference = EA41C5FD2E2CDFB200C8229A /* CarMaintenanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA41C5D02E2CDFB100C8229A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = CMN;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EA41C5D72E2CDFB100C8229A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EA41C5F22E2CDFB200C8229A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EA41C5D72E2CDFB100C8229A;
+					};
+					EA41C5FC2E2CDFB200C8229A = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EA41C5D72E2CDFB100C8229A;
+					};
+				};
+			};
+			buildConfigurationList = EA41C5D32E2CDFB100C8229A /* Build configuration list for PBXProject "CarMaintenance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA41C5CF2E2CDFB100C8229A;
+			productRefGroup = EA41C5D92E2CDFB100C8229A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA41C5D72E2CDFB100C8229A /* CarMaintenance */,
+				EA41C5F22E2CDFB200C8229A /* CarMaintenanceTests */,
+				EA41C5FC2E2CDFB200C8229A /* CarMaintenanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA41C5D62E2CDFB100C8229A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA41C5EB2E2CDFB200C8229A /* LaunchScreen.storyboard in Resources */,
+				EA41C5E82E2CDFB200C8229A /* Assets.xcassets in Resources */,
+				EA41C5E62E2CDFB100C8229A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C5F12E2CDFB200C8229A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C5FB2E2CDFB200C8229A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78EA09CCFAE615F503874A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarMaintenanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7B3D81DFFD2D3FEE2AE33A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarMaintenance-CarMaintenanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C908CBC50E99FB5741F5567B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarMaintenance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA41C5D42E2CDFB100C8229A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA41C5DD2E2CDFB100C8229A /* AppDelegate.m in Sources */,
+				EA41C5EE2E2CDFB200C8229A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C5EF2E2CDFB200C8229A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA41C5F82E2CDFB200C8229A /* CarMaintenanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA41C5F92E2CDFB200C8229A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA41C6022E2CDFB200C8229A /* CarMaintenanceUITests.m in Sources */,
+				EA41C6042E2CDFB200C8229A /* CarMaintenanceUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA41C5F52E2CDFB200C8229A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA41C5D72E2CDFB100C8229A /* CarMaintenance */;
+			targetProxy = EA41C5F42E2CDFB200C8229A /* PBXContainerItemProxy */;
+		};
+		EA41C5FF2E2CDFB200C8229A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA41C5D72E2CDFB100C8229A /* CarMaintenance */;
+			targetProxy = EA41C5FE2E2CDFB200C8229A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA41C5E42E2CDFB100C8229A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA41C5E52E2CDFB100C8229A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA41C5E92E2CDFB200C8229A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA41C5EA2E2CDFB200C8229A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA41C6052E2CDFB200C8229A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA41C6062E2CDFB200C8229A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA41C6082E2CDFB200C8229A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31102BDA669F42DA3BE6218 /* Pods-CarMaintenance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarMaintenance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.CarMaintenance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA41C6092E2CDFB200C8229A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467324D35DBD60D6FA48A9DC /* Pods-CarMaintenance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarMaintenance/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.CarMaintenance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA41C60B2E2CDFB200C8229A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB711D84B240CE955C1818B /* Pods-CarMaintenanceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.CarMaintenanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMaintenance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarMaintenance";
+			};
+			name = Debug;
+		};
+		EA41C60C2E2CDFB200C8229A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBFB1870ADE20DCDE937462 /* Pods-CarMaintenanceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.CarMaintenanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMaintenance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarMaintenance";
+			};
+			name = Release;
+		};
+		EA41C60E2E2CDFB200C8229A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C2D045ECC48FA223C0ACCF /* Pods-CarMaintenance-CarMaintenanceUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.CarMaintenanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarMaintenance;
+			};
+			name = Debug;
+		};
+		EA41C60F2E2CDFB200C8229A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA005B31B8DC60EAFB5EA0CC /* Pods-CarMaintenance-CarMaintenanceUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-rf.com.CarMaintenanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarMaintenance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA41C5D32E2CDFB100C8229A /* Build configuration list for PBXProject "CarMaintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41C6052E2CDFB200C8229A /* Debug */,
+				EA41C6062E2CDFB200C8229A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA41C6072E2CDFB200C8229A /* Build configuration list for PBXNativeTarget "CarMaintenance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41C6082E2CDFB200C8229A /* Debug */,
+				EA41C6092E2CDFB200C8229A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA41C60A2E2CDFB200C8229A /* Build configuration list for PBXNativeTarget "CarMaintenanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41C60B2E2CDFB200C8229A /* Debug */,
+				EA41C60C2E2CDFB200C8229A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA41C60D2E2CDFB200C8229A /* Build configuration list for PBXNativeTarget "CarMaintenanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA41C60E2E2CDFB200C8229A /* Debug */,
+				EA41C60F2E2CDFB200C8229A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA41C5D02E2CDFB100C8229A /* Project object */;
+}
