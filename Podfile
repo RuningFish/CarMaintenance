@@ -4,8 +4,7 @@
 target 'CarMaintenance' do
   pod 'AFNetworking', '3.2.1', :subspecs => ['Reachability', 'Serialization', 'Security', 'NSURLSession']
   pod 'Masonry'
-
-  # Pods for CarMaintenance
+  pod 'BRPickerView'
 
   target 'CarMaintenanceTests' do
     inherit! :search_paths

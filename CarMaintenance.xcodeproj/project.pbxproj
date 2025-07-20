@@ -25,6 +25,8 @@
 		EA6851DB2E2CE53E003DE3C2 /* CMNAlpashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851DA2E2CE53E003DE3C2 /* CMNAlpashViewController.m */; };
 		EA6851DE2E2CE55F003DE3C2 /* CMNTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851DD2E2CE55F003DE3C2 /* CMNTabbarViewController.m */; };
 		EA6851E12E2CE571003DE3C2 /* CMNSelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E02E2CE571003DE3C2 /* CMNSelectRootViewController.m */; };
+		EA6851E52E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */; };
+		EA6851E82E2CF4FD003DE3C2 /* CMNAddCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E72E2CF4FD003DE3C2 /* CMNAddCarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,10 @@
 		EA6851DF2E2CE571003DE3C2 /* CMNSelectRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMNSelectRootViewController.h; sourceTree = "<group>"; };
 		EA6851E02E2CE571003DE3C2 /* CMNSelectRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNSelectRootViewController.m; sourceTree = "<group>"; };
 		EA6851E22E2CE58A003DE3C2 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA6851E32E2CF40E003DE3C2 /* CMNMyCarTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMNMyCarTableViewCell.h; sourceTree = "<group>"; };
+		EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNMyCarTableViewCell.m; sourceTree = "<group>"; };
+		EA6851E62E2CF4FD003DE3C2 /* CMNAddCarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMNAddCarViewController.h; sourceTree = "<group>"; };
+		EA6851E72E2CF4FD003DE3C2 /* CMNAddCarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMNAddCarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +188,10 @@
 				EA6851DF2E2CE571003DE3C2 /* CMNSelectRootViewController.h */,
 				EA6851E02E2CE571003DE3C2 /* CMNSelectRootViewController.m */,
 				EA6851E22E2CE58A003DE3C2 /* PrefixHeader.pch */,
+				EA6851E32E2CF40E003DE3C2 /* CMNMyCarTableViewCell.h */,
+				EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */,
+				EA6851E62E2CF4FD003DE3C2 /* CMNAddCarViewController.h */,
+				EA6851E72E2CF4FD003DE3C2 /* CMNAddCarViewController.m */,
 			);
 			path = CarMaintenance;
 			sourceTree = "<group>";
@@ -214,6 +224,7 @@
 				EA41C5D42E2CDFB100C8229A /* Sources */,
 				EA41C5D52E2CDFB100C8229A /* Frameworks */,
 				EA41C5D62E2CDFB100C8229A /* Resources */,
+				E84E50BFC1C782ABA1049AE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +262,7 @@
 				EA41C5F92E2CDFB200C8229A /* Sources */,
 				EA41C5FA2E2CDFB200C8229A /* Frameworks */,
 				EA41C5FB2E2CDFB200C8229A /* Resources */,
+				950CB4D72968426CBD41CF9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -355,6 +367,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		950CB4D72968426CBD41CF9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarMaintenance-CarMaintenanceUITests/Pods-CarMaintenance-CarMaintenanceUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarMaintenance-CarMaintenanceUITests/Pods-CarMaintenance-CarMaintenanceUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarMaintenance-CarMaintenanceUITests/Pods-CarMaintenance-CarMaintenanceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BF7B3D81DFFD2D3FEE2AE33A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +428,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E84E50BFC1C782ABA1049AE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarMaintenance/Pods-CarMaintenance-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarMaintenance/Pods-CarMaintenance-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarMaintenance/Pods-CarMaintenance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -413,7 +459,9 @@
 				EA41C5EE2E2CDFB200C8229A /* main.m in Sources */,
 				EA6851DE2E2CE55F003DE3C2 /* CMNTabbarViewController.m in Sources */,
 				EA6851D82E2CE522003DE3C2 /* CMNFeedbackViewController.m in Sources */,
+				EA6851E52E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m in Sources */,
 				EA6851CF2E2CE4FE003DE3C2 /* CMNMyCarViewController.m in Sources */,
+				EA6851E82E2CF4FD003DE3C2 /* CMNAddCarViewController.m in Sources */,
 				EA6851E12E2CE571003DE3C2 /* CMNSelectRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +555,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -569,7 +617,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CarMaintenance/PrefixHeader.pch";
@@ -603,6 +651,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,6 +679,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

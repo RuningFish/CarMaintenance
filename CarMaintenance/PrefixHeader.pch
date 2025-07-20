@@ -4,9 +4,12 @@
 
 
 #define MAIN_VIEW_COLOR [UIColor colorWithRed:(141)/255.0 green:(110)/255.0 blue:(160)/255.0 alpha:1]
-
+// 我的爱车
+#define KMyCarRecordPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:@"MyCarRecord.archive"]
 // 爱车保养记录
 #define KCarMaintenanceRecordPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES) objectAtIndex:0] stringByAppendingPathComponent:@"CarMaintenancetRecord.archive"]
+#define KMyCarRecordAddSuccessNotificationName @"KMyCarRecordddSuccessNotificationName"
 #define KCarMaintenanceRecordAddSuccessNotificationName @"KCarMaintenanceRecordAddSuccessNotificationName"
 #import "Masonry.h"
+#import "BRPickerView.h"
 
