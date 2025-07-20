@@ -23,6 +23,7 @@
 		EA6851D52E2CE51B003DE3C2 /* CMNMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851D42E2CE51B003DE3C2 /* CMNMineViewController.m */; };
 		EA6851D82E2CE522003DE3C2 /* CMNFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851D72E2CE522003DE3C2 /* CMNFeedbackViewController.m */; };
 		EA6851DB2E2CE53E003DE3C2 /* CMNAlpashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851DA2E2CE53E003DE3C2 /* CMNAlpashViewController.m */; };
+		EA6851D82E2CE522003DE3C2 /* CMNFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851D72E2CE522003DE3C2 /* CMNFeedbackViewController.m */; };
 		EA6851DE2E2CE55F003DE3C2 /* CMNTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851DD2E2CE55F003DE3C2 /* CMNTabbarViewController.m */; };
 		EA6851E12E2CE571003DE3C2 /* CMNSelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E02E2CE571003DE3C2 /* CMNSelectRootViewController.m */; };
 		EA6851E52E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6851E42E2CF40E003DE3C2 /* CMNMyCarTableViewCell.m */; };
@@ -644,6 +645,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CarMaintenance/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarMaintenance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -672,6 +674,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CarMaintenance/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarMaintenance/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
